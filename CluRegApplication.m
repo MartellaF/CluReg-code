@@ -3,7 +3,7 @@ function  [Results]=CluRegApplication(rangeQ,nrandstart,X,Y)
 % Input:
 % Code for application of real data set
 % rangeQ is a vector. Example range: Q=[2,3,4,5]
-% nrandstart number of starting points
+% nrandstart number of starting points to avoid local maxima
 % X matrix nxJ of covariates
 % Y matrix nxM of responses
 % V0 Variable-cluster membership matrix Initialization with kmeans 
