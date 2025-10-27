@@ -6,7 +6,7 @@ MRMoLP introduces a structured regression framework where:
 - Each group defines a latent predictor (LP), which enters the regression model.
 - Parameters are estimated using an Expectation Conditional Maximization (ECM) algorithm.
 This approach is particularly useful when interpretability and grouped variable structure are important.
-The method is described in detail in the paper under review **XXX (mettere archive)**
+The method is described in detail in the paper under review **XXX**
 
 The **CluRegApplication** function applies the Multivariate Regression Model based on Latent Predictors to a real dataset, exploring multiple values for the number of latent groups (Q) and selecting the best solution for each Q based on the highest log-likelihood across several random initializations.
 - Input:
