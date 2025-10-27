@@ -92,11 +92,9 @@ Ldif = LQ-L0;
      SIGMAe0=SIGMAe;
      beta0=beta;
      if (iter>maxiter) 
-            fprintf('algoritmo non converge  iter Ldif è  %g.\n',Ldif);
             break
      end
  elseif Ldif < 0
-          fprintf('decreases %g.\n',Ldif);
               break
  elseif               Ldif < eps    
            break   
@@ -105,5 +103,6 @@ end
 nparameters=J+(J-Q)+(M*Q)+M;
 bic=-2*LQ+log(n)*nparameters;
 aic=-LQ+nparameters;
+
 
 
