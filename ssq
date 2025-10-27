@@ -1,0 +1,6 @@
+function t = ssq(a)
+%SSQ	SSQ(A) is the sum of squares of the elements of matrix A.
+% Written by Henk A.L. Kiers, University of Groningen (Last update: September 1, 1999)
+
+t = sum(sum(a.^2));
+
